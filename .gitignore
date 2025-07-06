@@ -2,3 +2,27 @@ fineweb10B/
 pylog124M/
 __pycache__/
 logs/
+
+# Temporary analysis files (keep verification_results/ folder)
+*.txt
+!verification_results/*.txt
+*.png
+!verification_results/*.png
+
+# Python cache and virtual environments
+*.pyc
+.venv/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# SSH keys (security)
+*.pem
+*.key
